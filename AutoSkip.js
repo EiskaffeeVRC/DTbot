@@ -1,12 +1,14 @@
 setInterval(function() {
-	$('#chat-txt-message').val('AUTO SKIP is running get down votes to -5 to skip the song!');
+	$('#chat-txt-message').val('Hoii im Sue #autoskipbot!');
 	$('.pusher-chat-widget-send-btn').click();
 }, 2000000);
 
 setInterval(function() { 
-	if($('#maindubtotal').text() <= -5) { 
+	if($('#maindubtotal').text() <= -4) { 
 		$('.skip-el').click(); 
-		$('#chat-txt-message').val('AFK BOT: Skipped to many down votes!');
+		$('#chat-txt-message').val('Skipped you fucking fag lel!');
 		$('.pusher-chat-widget-send-btn').click();
 	} 
 }, 10000);
+
+
